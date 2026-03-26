@@ -297,6 +297,37 @@ section {
     color: var(--accent-gold);
 }
 
+.hero-instruction {
+    background: rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(212, 175, 55, 0.4);
+    border-radius: var(--radius-md);
+    padding: 20px 30px;
+    max-width: 700px;
+    margin: 35px auto 10px;
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-align: left;
+}
+
+.hero-instruction i {
+    font-size: 2.5rem;
+    color: var(--accent-gold);
+}
+
+.hero-instruction p {
+    color: #E2E8F0;
+    font-size: 1.15rem;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.hero-instruction strong {
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
 /* IDENTIFICACION (Tarjetas) */
 .section-light {
     background-color: var(--bg-light);
@@ -706,6 +737,16 @@ section {
     
     .hero-title { font-size: 2.2rem; }
     .hero-subtitle { font-size: 1.15rem; }
+    
+    .hero-instruction {
+        flex-direction: column;
+        text-align: center;
+        padding: 15px;
+        gap: 10px;
+    }
+    .hero-instruction i { font-size: 2rem; }
+    .hero-instruction p { font-size: 1.05rem; }
+
     .section-title { font-size: 2.2rem; }
     
     .btn-giant { font-size: 1.2rem; padding: 20px 30px; width: 100%; }
