@@ -45,6 +45,10 @@ body {
     overflow-x: hidden;
 }
 
+a {
+    text-decoration: none;
+}
+
 h1, h2, h3, h4 {
     font-family: 'Playfair Display', serif;
     line-height: 1.2;
@@ -151,21 +155,22 @@ section {
 .btn-giant {
     background: linear-gradient(135deg, var(--whatsapp-green), #1EBE5D);
     color: white;
-    padding: 24px 50px;
+    padding: 16px 40px;
     border-radius: var(--radius-pill);
     font-weight: 800;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     display: inline-flex;
     flex-direction: column;
     align-items: center;
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     box-shadow: var(--shadow-glow);
     text-align: center;
-    margin: 40px 0;
+    margin: 30px 0;
     position: relative;
     overflow: hidden;
     animation: pulse-glow 3s infinite;
-    border: 3px solid rgba(255,255,255,0.7);
+    border: 2px solid rgba(255,255,255,0.7);
+    text-decoration: none;
 }
 
 .btn-giant::after {
@@ -195,7 +200,7 @@ section {
 .btn-giant span {
     display: block;
     margin-top: 5px;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 700;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #FFFFFF;
@@ -746,8 +751,8 @@ section {
 
     .section-title { font-size: 2.2rem; }
     
-    .btn-giant { font-size: 1.2rem; padding: 20px 30px; width: 100%; }
-    .btn-giant span { font-size: 1.3rem; padding: 0; margin-top: 5px; }
+    .btn-giant { font-size: 1.15rem; padding: 15px 20px; width: 100%; border-width: 2px; }
+    .btn-giant span { font-size: 1.2rem; padding: 0; margin-top: 5px; }
     
     .avatar-image { width: 220px; height: 220px; }
     .whatsapp-float { width: 60px; height: 60px; font-size: 35px; bottom: 20px; right: 20px; }
