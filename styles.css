@@ -193,11 +193,17 @@ section {
 }
 
 .btn-giant span {
-    font-size: 1.2rem;
-    font-weight: 600;
-    font-family: 'Outfit', sans-serif;
-    letter-spacing: 1px;
-    opacity: 0.9;
+    display: inline-block;
+    margin-top: 12px;
+    font-size: 2.2rem;
+    font-weight: 800;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: var(--whatsapp-dark);
+    background-color: #FFFFFF;
+    padding: 6px 24px;
+    border-radius: var(--radius-pill);
+    letter-spacing: 2px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
 }
 
 .btn-giant i {
@@ -703,7 +709,7 @@ section {
     .section-title { font-size: 2.2rem; }
     
     .btn-giant { font-size: 1.2rem; padding: 20px 30px; width: 100%; }
-    .btn-giant span { font-size: 1rem; }
+    .btn-giant span { font-size: 1.4rem; padding: 4px 16px; margin-top: 10px; }
     
     .avatar-image { width: 220px; height: 220px; }
     .whatsapp-float { width: 60px; height: 60px; font-size: 35px; bottom: 20px; right: 20px; }
